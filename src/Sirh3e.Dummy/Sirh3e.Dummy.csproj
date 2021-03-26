@@ -4,6 +4,21 @@
     <LangVersion>9</LangVersion>
     <TargetFrameworks>net5.0;netstandard1.1;netstandard2.0;netstandard2.1</TargetFrameworks>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageVersion>0.1.0</PackageVersion>
+    <Title>Sirh3e.Dummy</Title>
+    <Authors>sirh3e</Authors>
+    <Description>Just a dummy library to test nuget things out :D</Description>
+    <RepositoryUrl>https://github.com/sirh3e-templates/Dummy.git</RepositoryUrl>
+    <RepositoryBranch>master</RepositoryBranch>
+    <PackageProjectUrl>https://github.com/sirh3e-templates/Dummy</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageTags>sirh3e Sirh3e foo Foo dummy Dummy</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
+
+  <ItemGroup>
+      <None Include="LICENSE.txt" Pack="true" PackagePath=""/>
+  </ItemGroup>
 
 </Project>
